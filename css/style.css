@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*/
+/* HTML5 display-role reset for older browsers */
+/*
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*/
+/* 
+Custom Area
+*/
+
+.masthead {
+  padding: 6em 0;
+  background-image: url("http://upload.wikimedia.org/wikipedia/commons/a/ab/Night_Panorama_of_Golden_Gate_Bridge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  //border-top: solid 1em #FFCF33;
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.1em;
+  color: white;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  text-align: center;
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: light;
+  color: #FA9A59;
+  background-color: #000000;
+}
+
+.content-footer {
+  text-align: center;
+  color: white;
+  /* Red, Green, Blue: #RRGGBB */
+  background-color: #000000;
+}
+
+.social >li {
+  display: inline-block;
+}
+
+.content-footer > p {
+   /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+body {
+   /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", "sans-serif";
+  background-color: #000000;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+/* 
+Responsive Area
+*/
+
+@media only screen and (max-width: 500px) {
+  .content-footer {
+    padding: 3em 0;
+    /*font-size: .6em;*/
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
